@@ -3,7 +3,7 @@ using namespace std;
 
 
 // Function to perform Selection Sort
-// Way -1
+// Type -1
 void SelectionSort(int arr[], int n){
     for (int i = 0; i < n; i++) {
         int minimum = arr[i], position = i;
@@ -17,7 +17,7 @@ void SelectionSort(int arr[], int n){
     }
 }
 
-// Way - 2
+// Type - 2
 void selectionSort(int arr[], int n){ // O(n^2) time complexity
     // To store index of the minimum element
     int minIndex;
@@ -37,8 +37,11 @@ void selectionSort(int arr[], int n){ // O(n^2) time complexity
     }
 }
 
+
+
+
 // Function to perform Bubble Sort
-// Way - 1:
+// Type - 1:
 void BubbleSort(int arr[], int n) {
     for (int i = n-1; i >= 0; i--){
         for (int j = 0; j < i; j++){
@@ -49,7 +52,7 @@ void BubbleSort(int arr[], int n) {
     }
 }
 
-// Way - 2: 
+// Type - 2: 
 void bubbleSort(int arr[], int n){ // O(n^2) time complexity
     // Traverse through all array elements
     bool isSwap = false;                // Flag to check if any swapping happens in a full pass
@@ -73,8 +76,10 @@ void bubbleSort(int arr[], int n){ // O(n^2) time complexity
 }
 
 
+
+
 // Function to perform Insertion Sort
-// Way - 1
+// Type - 1
 void InsertionSort(int arr[], int n){
     for (int i = 1; i < n; i++){
         for (int j = i+1; j > 0 && arr[j] < arr[j-1]; j--){
@@ -83,7 +88,7 @@ void InsertionSort(int arr[], int n){
     }
 }
 
-// Way - 2
+// Type - 2
 void insertionSort(int arr[], int n){   // O(n^2) time complexity
 
     // Loop over the unsorted part of the array starting from index 1
