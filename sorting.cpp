@@ -17,6 +17,8 @@ void SelectionSort(int arr[], int n){
     }
 }
 
+// ami jani na kisu.
+
 // Type - 2
 void selectionSort(int arr[], int n){ // O(n^2) time complexity
     // To store index of the minimum element
